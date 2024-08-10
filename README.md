@@ -45,7 +45,7 @@ Team Member 2:
 ### Project Solution:
 _Include a comprehensive summary of all important information about your project solution here._
 
-A variational circuit algorithm is used to fit the sine graph given a small number of samples due to the trigonometric nature of the RX gate. In addition, we have located and intend to explore an alternative, advanced method of fitting the sine graph (by solving a differential equation via the somewhat unknown capacity of QSVMs for regression tasks) in the future.
+A variational circuit algorithm is used to fit the sine graph given a small number of samples due to the trigonometric nature of the RX gate. In addition, we have located and intend to explore an alternative, advanced method of fitting the sine graph (by solving a differential equation via the somewhat unknown capacity of QSVMs for regression tasks) in the future. If one models the Sine function as the solution to the second order differential equation f''(x) = -f(x) with the boundary conditions f(0) = 0, f'(0) = 1, one can explore the options proposed by the mentioned reference for fitting this function. Of course, there may be limitations but for certain function with some properties, this method seems reliable. 
 
 The solution for the weld problem is to implement a customizable Keras quanvolutional network, augmented with Nvidia cuQuantum GPU acceleration to implement a quanvolutional neural network.
 The quanvolutional neural network convolves the image with a size $K$ square kernel to produce $L$ channels, while downscaling the image by a factor of $K$.
